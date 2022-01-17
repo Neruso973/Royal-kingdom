@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Royal Kingdom of Colchis</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../images/favicon.ico"/>
+  </head>
+  
+  <body>
+      <header>
+        <!--Content goes here-->
+        <div id="navbar">
+          <a href="../index.html">
+            <img id="logo" src="../images/logo.png" alt="logo of Colchis kingdom">
+          </a>
+        
+        <!-- Navigation Section-->
+          <nav>
+            <ul id="nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="royal-family.html">Royal Family</a></li>
+                <li><a href="assets.html">Royal Assets</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <!-- Add this to a seperate page, e.g. contact.html -->
+      <!-- Contact the Royal Kingdom -->
+      <section>
+        <div>
+          <h1>
+            Contact the Royal Kingdom of Colchis
+          </h1>
+          <!-- Connect the Javascript file -->
+          <div id="contact">
+              <label for="name">Your name:</label>
+              <form method="post" action="traitement.php"><input id="name" type="text" name="name" placeholder="Name"/></form>
+              <label for="at">Your @ address:</label>
+              <form method="post" action="traitement.php"><input id="at" type="text" name="at" placeholder="@mail"/></form>
+              <label for="message">Your message:</label>
+              <textarea name="message" id="message" cols="50" rows="17" placeholder="Message"></textarea>
+          </div>
+          <div>
+            <button id="send" type="submit" onclick="openModal()">Envoyer!</button>
+          </div>
+          </div>
+        </section>
+        <footer>
+          <p>This website was made with love by Nelson in order to join Wild Code School's september's promotion in Bordeaux</p>
+        </footer>
+      <script src="../script.js"></script>
+  </body>
+</html>

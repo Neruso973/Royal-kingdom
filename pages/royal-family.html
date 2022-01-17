@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Royal Kingdom of Colchis</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../images/favicon.ico"/>
+  </head>
+  
+  <body>
+      <header>
+        <!--Content goes here-->
+        <div id="navbar">
+          <a href="../index.html">
+            <img id="logo" src="../images/logo.png" alt="logo of Colchis kingdom">
+          </a>
+        
+        <!-- Navigation Section-->
+          <nav>
+            <ul id="nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="royal-family.html">Royal Family</a></li>
+                <li><a href="assets.html">Royal Assets</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+     <!-- Add this to a seperate page, e.g. royal-family.html
+			Images and text aligned next to each other -->
+      <section>
+        <h1>
+          The Royal Family
+        </h1>
+        <div id="family">
+          <div id="king" onmouseover="kingOver()" onmouseleave="kingLeave()">
+            <img src="../images/aeetes.jpeg" alt="photo of the king">
+            <div id="aeetes">
+              <h2 class="rank">
+                King Aeetes
+              </h2>
+              <p>
+              The King Aeëtes son of Helios, god of Sun and Oceanid Perseis. Brother of Circe, Perses and Pasiphaë, and father of princess Medeas. He made a rich and powerful kingdom. Friend of many gods like Héphaistos and Ares.
+            </p>
+            </div>
+          </div>
+          <div id="princess" onmouseover="princessOver()" onmouseleave="princessLeave()">
+            <img src="../images/Madeas.jpeg" alt="photo of the princess" height="500px">
+            <div id="madeas">
+              <h2 class="rank">
+                Princess Madeas
+              </h2>
+              <p>
+                Princess Madeas is the dauther of King and Queen of Colchis, and the niece of Circe sorceress like her, she is a priestess of the goddess Hecate.
+              </p>
+            </div>
+          </div>
+          <div id="queen" onmouseover="queenOver()" onmouseleave="queenLeave()">
+            <img src="../images/Idyia.jpeg" alt="photo of the queen">
+            <div id="idyia">
+              <h2 class="rank">
+                Queen Idyia
+              </h2>
+              <p>
+                Queen Idyia is the daugther of Titans Oceanus and Tethys, queen of Colchis. She is the youngest Oceanides.
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <footer>
+      <p>This website was made with love by Nelson in order to join Wild Code School's september's promotion in Bordeaux</p>
+    </footer>
+     <script src="../script.js"></script>
+  </body>
+</html>
